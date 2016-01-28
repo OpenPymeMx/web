@@ -110,7 +110,7 @@ class tile(orm.Model):
         'domain': fields.text('Domain'),
         'action_id': fields.many2one('ir.actions.act_window', 'Action'),
         'count': fields.function(
-            _get_tile_info, type='int', string='Count',
+            _get_tile_info, type='integer', string='Count',
             multi='tile_info', readonly=True),
         'computed_value': fields.function(
             _get_tile_info, type='float', string='Computed Value',
