@@ -21,7 +21,7 @@ addon | version | summary
 [help_online](help_online/) | 8.0.1.0.0 | Help Online
 [help_popup](help_popup/) | 8.0.0.5.0 | Help Popup
 [support_branding](support_branding/) | 8.0.2.0.0 | Adds your branding to an Odoo instance
-[web_action_conditionable](web_action_conditionable/) | 8.0.0.1.0 | web_action_conditionable
+[web_action_conditionable](web_action_conditionable/) | 8.0.1.1.1 | web_action_conditionable
 [web_advanced_search_wildcard](web_advanced_search_wildcard/) | 8.0.1.0.0 | Webmodule to add wildcard operators in advanced search field
 [web_advanced_search_x2x](web_advanced_search_x2x/) | 8.0.1.0.0 | Use a search widget in advanced search for x2x fields
 [web_ckeditor4](web_ckeditor4/) | 8.0.1.0.0 | Provides a widget for editing HTML fields using CKEditor 4.x
@@ -30,6 +30,7 @@ addon | version | summary
 [web_copy_confirm](web_copy_confirm/) | 8.0.1.0.0 | Show confirmation dialogue before copying records
 [web_dashboard_open_action](web_dashboard_open_action/) | 8.0.1.0.0 | Adds a button to open a dashboard in full mode
 [web_dashboard_tile](web_dashboard_tile/) | 8.0.4.0.0 | Add Tiles to Dashboard
+[web_decimal_numpad_dot](web_decimal_numpad_dot/) | 8.0.1.0.0 | Web - Numpad Dot as decimal separator
 [web_dialog_size](web_dialog_size/) | 8.0.0.1.0 | A module that lets the user expand a dialog box to the full screen width.
 [web_dom_model_classes](web_dom_model_classes/) | 8.0.1.0.0 | Allows small UI changes with simple CSS
 [web_easy_switch_company](web_easy_switch_company/) | 8.0.1.0.0 | Multicompany - Easy Switch Company
@@ -70,7 +71,9 @@ addon | version | summary
 [web_sheet_full_width_selective](web_sheet_full_width_selective/) | 8.0.0.1.0 | Show selected sheets with full width
 [web_shortcuts](web_shortcuts/) | 8.0.1.0.0 | Web Shortcuts
 [web_switch_company_warning](web_switch_company_warning/) | 8.0.0.1.0 | Show a warning if current company has been switched in another tab or window.
+[web_timeline](web_timeline/) | 8.0.1.0.0 | Interactive visualization chart to show events in time
 [web_translate_dialog](web_translate_dialog/) | 8.0.1.0.0 | Easy-to-use pop-up to translate fields in several languages
+[web_tree_date_search](web_tree_date_search/) | 8.0.1.0.0 | Tree dates search
 [web_tree_dynamic_colored_field](web_tree_dynamic_colored_field/) | 8.0.2.0.0 | Allows you to dynamically color fields on tree views
 [web_tree_image](web_tree_image/) | 8.0.1.1.0 | Show images in tree views
 [web_tree_many2one_clickable](web_tree_many2one_clickable/) | 8.0.1.0.0 | Clickable many2one fields for tree views

@@ -2,13 +2,22 @@
 
 {
     "name": 'web_action_conditionable',
-    "version": "8.0.0.1.0",
+    "version": "8.0.1.1.1",
+    "category": "Web",
+    "website": "https://github.com/OCA/web",
+    "development_status": "Beta",
     "depends": [
         'base',
         'web',
     ],
     "license": "AGPL-3",
-    'data': ['views/view.xml'],
-    "author": "Cristian Salamea,Odoo Community Association (OCA)",
+    "demo": [
+        "demo/ir_ui_view.xml",
+    ],
+    'data': [
+        'views/view.xml'
+    ],
+    "author": "Cristian Salamea,Onestein,"
+              "Odoo Community Association (OCA)",
     "installable": True,
 }
