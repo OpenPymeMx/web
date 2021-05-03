@@ -2,7 +2,7 @@
 # © 2015 Therp BV <http://therp.nl>
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 
-import StringIO
+import io
 import base64
 from openerp import http
 from openerp.tools.misc import file_open
@@ -24,6 +24,6 @@ class WebFavicon(http.Controller):
             favicon = file_open('web/static/src/img/favicon.ico')
             favicon_mimetype = 'image/x-icon'
         else:
-            favicon = StringIO.StringIO(base64.b64decode(favicon))
+            favicon = io.StringIO(base64.b64decode(favicon))
         return request.make_response(
             favicon.read(), [('Content-Type', favicon_mimetype)])

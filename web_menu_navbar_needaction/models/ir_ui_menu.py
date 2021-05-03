@@ -44,7 +44,7 @@ class IrUiMenu(models.Model):
                 continue
             for menu_id, needaction in self.search(
                     [('id', 'child_of', this.ids)])._filter_visible_menus()\
-                    .get_needaction_data().iteritems():
+                    .get_needaction_data().items():
                 if needaction['needaction_enabled']:
                     menu = self.env['ir.ui.menu'].browse(menu_id)
                     model = menu._get_needaction_model()
@@ -55,7 +55,7 @@ class IrUiMenu(models.Model):
                     if needaction['needaction_counter'] and not action_menu:
                         action_menu = menu
             result[this.id] = {
-                'count': sum(count_per_model.itervalues()),
+                'count': sum(count_per_model.values()),
             }
             if action_menu:
                 result[this.id].update({

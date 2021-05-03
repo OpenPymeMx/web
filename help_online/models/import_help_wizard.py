@@ -29,7 +29,7 @@ from openerp import models, fields, api
 from openerp.tools import convert
 
 import base64
-from cStringIO import StringIO
+from io import StringIO
 
 
 class ImportHelpWizard(models.TransientModel):
